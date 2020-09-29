@@ -2,6 +2,7 @@ SELECT oclc_numbers.oclc_number,
        instances_identifiers.instances_id,
        inventory_instances.hrid AS test,
        BLAHBLAHBLAH
+       ADD more nonsense
        inventory_instances.title,
        inventory_instances.discovery_suppress
     FROM local.oclc_numbers
