@@ -18,3 +18,5 @@ COMMIT;
 
 VACUUM local.instances_identifiers;
 ANALYZE local.instances_identifiers;
+
+                                   Testing forks
