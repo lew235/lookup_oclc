@@ -1,3 +1,4 @@
+--adding a comment at the beginning of the query
 BEGIN;
 
 CREATE TABLE local.oclc_numbers (
