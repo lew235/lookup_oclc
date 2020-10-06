@@ -12,7 +12,8 @@ CREATE TABLE local.instances_identifiers AS
 
 CREATE INDEX ON local.instances_identifiers (instances_id);
 CREATE INDEX ON local.instances_identifiers (type_id);
-CREATE INDEX ON local.instances_identifiers (value) jkgjgjg;
+CREATE INDEX ON local.instances_identifiers (value) diff change;
+
 
 COMMIT;
 
