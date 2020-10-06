@@ -12,9 +12,12 @@ CREATE TABLE local.instances_identifiers AS
 
 CREATE INDEX ON local.instances_identifiers (instances_id);
 CREATE INDEX ON local.instances_identifiers (type_id);
-CREATE INDEX ON local.instances_identifiers (value);
+CREATE INDEX ON local.instances_identifiers (value) diff change;
+
 
 COMMIT;
 
 VACUUM local.instances_identifiers;
 ANALYZE local.instances_identifiers;
+
+                                   Testing forks
