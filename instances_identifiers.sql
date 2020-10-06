@@ -14,6 +14,7 @@ CREATE INDEX ON local.instances_identifiers (instances_id);
 CREATE INDEX ON local.instances_identifiers (type_id);
 CREATE INDEX ON local.instances_identifiers (value) diff change;
 
+
 COMMIT;
 
 VACUUM local.instances_identifiers;
